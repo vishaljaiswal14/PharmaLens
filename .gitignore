@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project logs
+pipeline_trace.log
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*
+.env.production
+.env.development
+.env.staging
+
+# IDE files
+.vscode/
+.idea/
+
+# Large FAERS data files (exceeding GitHub limits / too large for public git repo)
+*25Q4.txt
+*.txt
+!requirements.txt
